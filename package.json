@@ -1,0 +1,28 @@
+{
+  "name": "purchase",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frenchiesmom/purchase.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/frenchiesmom/purchase/issues"
+  },
+  "homepage": "https://github.com/frenchiesmom/purchase#readme",
+  "devDependencies": {
+    "cypress": "^7.5.0",
+    "cypress-cucumber-preprocessor": "^4.1.2"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  },
+  "dependencies": {}
+}
